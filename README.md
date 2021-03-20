@@ -21,9 +21,3 @@ The fourth property is more complicated. If there were only two values, it would
 to implement with lower and upper case. Since we require a third value, I have chosen to
 use lower case, upper case, and "super case", where super case is the unicode codepoint
 for upper-case [blackboard bold](https://en.wikipedia.org/wiki/Blackboard_bold).
-
-## Motivation
-This game was inspired largely because I realized it is extremely simple to implement
-gamewide Set-checking. For each card pair, there is a single third card which completes
-the Set, so we simply need to iterate over each pair of cards in the board and check for
-the presence of that card.
